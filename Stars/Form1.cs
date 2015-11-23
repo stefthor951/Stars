@@ -23,11 +23,12 @@ namespace Stars
             startButton.Dispose();
             StarField(10000);
         }
-        Random randNum = new Random();
+        
         public void StarField(int stars)
         {
             for (int counter = 0; counter <= stars; counter++)
             {
+                Random randNum = new Random();
                 Graphics g = this.CreateGraphics();
 
 
