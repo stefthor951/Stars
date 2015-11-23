@@ -43,7 +43,7 @@ namespace Stars
                 SolidBrush freakShow = new SolidBrush(Color.FromArgb(starTransparency, redValue, greenValue, blueValue));
                 g.FillEllipse(freakShow, xValue, yValue, starSize, starSize);
 
-                //Thread.Sleep(50);
+                Thread.Sleep(25);
             }
         }
 
